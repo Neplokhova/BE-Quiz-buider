@@ -1,0 +1,16 @@
+{
+  "name": "be-quiz-builder",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix backend",
+    "build": "npm run build --prefix backend",
+    "start": "npm run start --prefix backend",
+    "lint": "npm run lint --prefix backend",
+    "format": "npm run format --prefix backend",
+    "prisma:generate": "npm run prisma:generate --prefix backend",
+    "prisma:migrate": "npm run prisma:migrate --prefix backend",
+    "prisma:seed": "npm run prisma:seed --prefix backend",
+    "test": "npm run test --prefix backend",
+    "test:watch": "npm run test:watch --prefix backend"
+  }
+}
